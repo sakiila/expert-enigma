@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.baobo.engima.EngimaApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-14T06:21:57" hostname="sirikaya.local" time="0.376">
+  <properties/>
+  <testcase name="contextLoads()" classname="me.baobo.engima.EngimaApplicationTests" time="0.376"/>
+  <system-out><![CDATA[14:21:56.635 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [me.baobo.engima.EngimaApplicationTests]: EngimaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:21:56.674 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration me.baobo.engima.EngimaApplication for test class me.baobo.engima.EngimaApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-01-14T14:21:56.815+08:00  INFO 11529 --- [    Test worker] me.baobo.engima.EngimaApplicationTests   : Starting EngimaApplicationTests using Java 17.0.9 with PID 11529 (started by bob in /Users/bob/IdeaProjects/expert-enigma)
+2024-01-14T14:21:56.816+08:00  INFO 11529 --- [    Test worker] me.baobo.engima.EngimaApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-01-14T14:21:57.248+08:00  INFO 11529 --- [    Test worker] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2024-01-14T14:21:57.254+08:00  INFO 11529 --- [    Test worker] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-01-14T14:21:57.254+08:00  INFO 11529 --- [    Test worker] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2024-01-14T14:21:57.254+08:00  INFO 11529 --- [    Test worker] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2024-01-14T14:21:57.254+08:00  INFO 11529 --- [    Test worker] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-01-14T14:21:57.254+08:00  INFO 11529 --- [    Test worker] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-01-14T14:21:57.254+08:00  INFO 11529 --- [    Test worker] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2024-01-14T14:21:57.255+08:00  INFO 11529 --- [    Test worker] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@ab24484
+2024-01-14T14:21:57.266+08:00  INFO 11529 --- [    Test worker] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2024-01-14T14:21:57.266+08:00  INFO 11529 --- [    Test worker] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-01-14T14:21:57.276+08:00  INFO 11529 --- [    Test worker] me.baobo.engima.EngimaApplicationTests   : Started EngimaApplicationTests in 0.544 seconds (process running for 0.991)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
